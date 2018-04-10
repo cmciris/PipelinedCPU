@@ -1,0 +1,19 @@
+DEPTH = 64; % Memory depth and width are required %
+WIDTH = 32; % Enter a decimal number %
+ADDRESS_RADIX = HEX; % Address and value radixes are optional %
+DATA_RADIX = HEX; % Enter BIN, DEC, HEX, or OCT; unless %
+% otherwise specified, radixes = HEX %
+CONTENT
+BEGIN
+
+0:20020080; %		addi 	$2, $0, 10000000	# address 80h output1	%
+1:200400c0; %		addi 	$4, $0, 11000000	# address c0h input1	%
+2:20060000; % loop:	addi 	$6, $0, 0		# r6 = 0 initialize 	%
+3:20070000; %		addi 	$7, $0, 0		# r7 = 0 initialize	%
+4:8c860000; %		lw 	$6, 0($4)		# input data from c0h	%
+5:200700ca; %           addi    $7  $0  11001010        # number to compare     %
+6:00c74021; %		hamd	$8, $6, $7		# calculate ham-dis	%
+7:ac480000; %		sw	$8, 0($2)		# output to 80h		%
+8:08000003; %		j	loop			# loop			%
+
+END ;

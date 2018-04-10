@@ -1,0 +1,88 @@
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 9.0 Build 132 02/25/2009 SJ Full Version
+# File: D:\FPGA\pipeline\PipelineCPU.csv
+# Generated on: Tue May 30 23:43:51 2017
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+From,To,Assignment Name,Value,Enabled
+,|,Partition Hierarchy,root_partition,Yes
+,operand0[0],Location,PIN_U3,Yes
+,operand0[1],Location,PIN_U4,Yes
+,operand0[2],Location,PIN_V1,Yes
+,operand0[3],Location,PIN_V2,Yes
+,operand1[0],Location,PIN_N25,Yes
+,operand1[1],Location,PIN_N26,Yes
+,operand1[2],Location,PIN_P25,Yes
+,operand1[3],Location,PIN_AE14,Yes
+,mem_clk,Location,PIN_N2,Yes
+,hex0[0],Location,PIN_AF10,Yes
+,hex0[1],Location,PIN_AB12,Yes
+,hex0[2],Location,PIN_AC12,Yes
+,hex0[3],Location,PIN_AD11,Yes
+,hex0[4],Location,PIN_AE11,Yes
+,hex0[5],Location,PIN_V14,Yes
+,hex0[6],Location,PIN_V13,Yes
+,hex1[0],Location,PIN_V20,Yes
+,hex1[1],Location,PIN_V21,Yes
+,hex1[2],Location,PIN_W21,Yes
+,hex1[3],Location,PIN_Y22,Yes
+,hex1[4],Location,PIN_AA24,Yes
+,hex1[5],Location,PIN_AA23,Yes
+,hex1[6],Location,PIN_AB24,Yes
+,hex4[0],Location,PIN_U9,Yes
+,hex4[1],Location,PIN_U1,Yes
+,hex4[2],Location,PIN_U2,Yes
+,hex4[3],Location,PIN_T4,Yes
+,hex4[4],Location,PIN_R7,Yes
+,hex4[5],Location,PIN_R6,Yes
+,hex4[6],Location,PIN_T3,Yes
+,hex5[0],Location,PIN_T2,Yes
+,hex5[1],Location,PIN_P6,Yes
+,hex5[2],Location,PIN_P7,Yes
+,hex5[3],Location,PIN_T9,Yes
+,hex5[4],Location,PIN_R5,Yes
+,hex5[5],Location,PIN_R4,Yes
+,hex5[6],Location,PIN_R3,Yes
+,hex6[0],Location,PIN_R2,Yes
+,hex6[1],Location,PIN_P4,Yes
+,hex6[2],Location,PIN_P3,Yes
+,hex6[3],Location,PIN_M2,Yes
+,hex6[4],Location,PIN_M3,Yes
+,hex6[5],Location,PIN_M5,Yes
+,hex6[6],Location,PIN_M4,Yes
+,hex7[0],Location,PIN_L3,Yes
+,hex7[1],Location,PIN_L2,Yes
+,hex7[2],Location,PIN_L9,Yes
+,hex7[3],Location,PIN_L6,Yes
+,hex7[4],Location,PIN_L7,Yes
+,hex7[5],Location,PIN_P9,Yes
+,hex7[6],Location,PIN_N9,Yes
+,resetn,Location,PIN_G26,Yes
+,hex2[0],Location,PIN_AB23,Yes
+,hex2[1],Location,PIN_V22,Yes
+,hex2[2],Location,PIN_AC25,Yes
+,hex2[3],Location,PIN_AC26,Yes
+,hex2[4],Location,PIN_AB26,Yes
+,hex2[5],Location,PIN_AB25,Yes
+,hex2[6],Location,PIN_Y24,Yes
+,hex3[0],Location,PIN_Y23,Yes
+,hex3[1],Location,PIN_AA25,Yes
+,hex3[2],Location,PIN_AA26,Yes
+,hex3[3],Location,PIN_Y26,Yes
+,hex3[4],Location,PIN_Y25,Yes
+,hex3[5],Location,PIN_U22,Yes
+,hex3[6],Location,PIN_W24,Yes

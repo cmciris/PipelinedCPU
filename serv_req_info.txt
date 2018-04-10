@@ -1,0 +1,23 @@
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>PDB</sub_system>
+	<file>/quartus/db/pdb/pdb_error.cpp</file>
+	<line>157</line>
+	<callstack>
+	0x043f2225: CCL_ERR + 0x2225 (?err_report_internal_error@@YIXPBD00H@Z + 0x15)
+	0x032d6af4: DB_PDB + 0x6af4 (?xfr_ptr@PDB_SEGMENT_READER@@UAIXAAPAVPDB_VIRTUAL_OBJECT_BASE@@PAVPDB_VIRTUAL_OBJECT_INFO@@@Z + 0x14)
+	0x009eae60: CCL_MSG + 0x1ae60 (?write_message@MSG_REPORT_FILE@@QAI_NPAVMSG_POST@@@Z + 0x1490)
+	0x009ee09d: CCL_MSG + 0x1e09d (??6MSG_POST@@QAIXAAV?$PDB_SEGMENT_TEMPLATE@VPDB_HDB_SEG_BASE@@@@@Z + 0x6b)
+	0x009e9ed8: CCL_MSG + 0x19ed8 (?write_message@MSG_REPORT_FILE@@QAI_NPAVMSG_POST@@@Z + 0x508)
+	0x032d377b: DB_PDB + 0x377b (?finish_reading_all@PDB_SEGMENT_READER@@QAIXXZ + 0x3b)
+	0x032dd708: DB_PDB + 0xd708 (?pdb_read_ptr@@YI_NAAVPDB_SEGMENT_READER@@P6IXAAVPDB_SEGMENT@@AAPAX@Z2@Z + 0x58)
+	0x0427dd0d: synth_sgn + 0x7dd0d (?sgn_qic_helper@@YI?AW4SGN_STATE_ENUM@@PAVCMP_FACADE@@AAV?$vector@V?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@V?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@@@@_Dinkum_std@@@Z + 0x720bd)
+	0x04281001: synth_sgn + 0x81001 (?sgn_qic_helper@@YI?AW4SGN_STATE_ENUM@@PAVCMP_FACADE@@AAV?$vector@V?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@V?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@@@@_Dinkum_std@@@Z + 0x753b1)
+	</callstack>
+	<error>pdb_id &lt;= object_info-&gt;m_ptr_table_size</error>
+	<date>Thu Jun 15 17:56:50 2017</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>pdb_id &lt;= object_info-&gt;m_ptr_table_size
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
